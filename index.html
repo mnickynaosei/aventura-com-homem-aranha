@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Afacad+Flux:wght@100..1000&family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Cinzel:wght@400..900&family=Cookie&family=Crushed&family=Fruktur:ital@0;1&family=Graduate&family=Great+Vibes&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Pirata+One&family=Press+Start+2P&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Homem-Aranha: A Ameaça de Nova York</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/passo0.jpg" alt="">
+            <p>Enquanto patrulhava os telhados de Nova York, o Homem-Aranha encontra uma carta misteriosa que descreve uma ameaça iminente. A carta menciona que um vilão desconhecido planeja destruir a cidade com uma arma secreta. Agora, cabe a Peter Parker impedir que isso aconteça!</p>
+            <button class="btn-proximo" data-proximo="1">Investigar o laboratório de Oscorp</button>
+            <button class="btn-proximo" data-proximo="2">Procurar pistas no submundo de Nova York</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Ao chegar no laboratório de Oscorp, você encontra pistas que indicam que o Duende Verde pode estar por trás da ameaça. Você precisa decidir entre confrontar Norman Osborn ou tentar encontrar mais informações sem ser visto.</p>
+            <button class="btn-proximo" data-proximo="3">Confrontar Norman Osborn</button>
+            <button class="btn-proximo" data-proximo="4">Investigar o laboratório sem ser visto</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>No submundo de Nova York, você encontra um grupo de vilões liderados pelo Rei do Crime. Eles sabem que você está se aproximando e têm algo em mente. Você deve agir rápido antes que eles se preparem para um ataque.</p>
+            <button class="btn-proximo" data-proximo="5">Enfrentar o Rei do Crime diretamente</button>
+            <button class="btn-proximo" data-proximo="6">Seguir discretamente para descobrir mais</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Ao confrontar Norman Osborn, ele revela que foi o Duende Verde quem armou a ameaça, mas o verdadeiro inimigo é algo muito mais sinistro. Ele oferece uma aliança temporária para enfrentar o verdadeiro vilão.</p>
+            <button class="btn-proximo" data-proximo="7">Aceitar a aliança com Osborn</button>
+        </div>
+    
+        <div class="passo" id="passo-4">
+            <p>Enquanto investiga o laboratório, você descobre um dispositivo que pode desativar a arma secreta do vilão. Porém, o Duende Verde aparece e você precisa enfrentá-lo para conseguir escapar com as informações.</p>
+            <button class="btn-proximo" data-proximo="7">Lutar contra o Duende Verde</button>
+        </div>
+        
+        <div class="passo" id="passo-5">
+            <p>Ao enfrentar o Rei do Crime, ele revela que a ameaça não é apenas uma arma, mas um exército de robôs controlados por um novo vilão. Você precisa encontrar a fonte dessa ameaça antes que o exército seja ativado.</p>
+            <button class="btn-proximo" data-proximo="7">Buscar a fonte dos robôs</button>
+        </div>
+        
+        <div class="passo" id="passo-6">
+            <p>Enquanto segue discretamente, você encontra um túnel secreto que leva a uma caverna onde um novo vilão, o Mysterio, está criando ilusões para enganar a cidade. Você precisa desvendar o truque dele e desarmar os planos.</p>
+            <button class="btn-proximo" data-proximo="8">Enfrentar o Mysterio</button>
+        </div>
+        
+        <div class="passo" id="passo-7">
+            <p>Com a ajuda de Norman Osborn, você consegue desativar parte da ameaça. Mas, ao sair do laboratório, uma nova ameaça surge: Venom está atacando a cidade! Você precisa decidir se vai ajudar Osborn ou enfrentar Venom sozinho.</p>
+            <button class="btn-proximo" data-proximo="9">Lutar contra Venom</button>
+            <button class="btn-proximo" data-proximo="10">Alinhar-se com Osborn para derrotar Venom</button>
+        </div>
+        
+        <div class="passo" id="passo-8">
+            <p>Ao enfrentar Mysterio, você consegue desvendar suas ilusões e descobrir que ele é apenas um peão de um vilão maior. Ele revela a localização da verdadeira ameaça: uma base secreta do Doutor Octopus.</p>
+            <button class="btn-proximo" data-proximo="11">Invadir a base do Doutor Octopus</button>
+        </div>
+    
+        <div class="passo" id="passo-9">
+            <p>Você enfrenta Venom em uma batalha épica, mas ao derrotá-lo, você descobre que ele estava sendo controlado por um vilão ainda mais perigoso, o Carnificina. A luta está longe de acabar!</p>
+            <button class="btn-proximo" data-proximo="12">Lutar contra o Carnificina</button>
+        </div>
+        
+        <div class="passo" id="passo-10">
+            <p>Ao alinhar-se com Osborn, você descobre que o verdadeiro vilão é o Dr. Octopus, que está manipulando as mentes dos vilões para executar seus planos malignos. Juntos, você e Osborn devem atacar a base de Octopus e impedir seus planos.</p>
+            <button class="btn-proximo" data-proximo="12">Invadir a base de Dr. Octopus</button>
+        </div>
+    
+        <div class="passo" id="passo-11">
+            <p>Na base secreta do Doutor Octopus, você encontra planos para uma arma que pode destruir a cidade inteira. Você deve desativá-la antes que seja tarde demais, mas Octopus não vai deixar você sair facilmente!</p>
+            <button class="btn-proximo" data-proximo="13">Desativar a arma e derrotar o Dr. Octopus</button>
+        </div>
+    
+        <div class="passo" id="passo-12">
+            <p>Ao derrotar o Carnificina, você descobre que a ameaça final está relacionada a um plano de dominação global do Dr. Octopus, que está criando uma super-arma para controlar o mundo. Agora, é a sua chance de derrotá-lo de vez!</p>
+            <button class="btn-proximo" data-proximo="13">Derrotar o Dr. Octopus e salvar a cidade</button>
+        </div>
+    
+        <div class="passo" id="passo-13">
+            <p>Com a derrota do Dr. Octopus e a salvação de Nova York, você retorna aos telhados da cidade. A aventura pode ter acabado por agora, mas sempre haverá novos vilões e ameaças para o Homem-Aranha enfrentar. E, com grandes poderes, vêm grandes responsabilidades!</p>
+           <img src="img/passo13.jpg" alt="">
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
